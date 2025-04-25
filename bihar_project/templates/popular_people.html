@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail-page</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/About.css') }}">
+</head>
+<body>
+    {% include 'navbar.html' %}
+    <div class="img-container">
+        <div class="img1"><img src="{{ url_for('static', filename='images/Bihar_district_map.png') }}" alt=""></div>
+        <div class="img2"><img src="{{ url_for('static', filename='images/Bihar.png') }}" alt=""></div>
+        
+    </div>
+   
+        <div class="mvd-desc">
+          <br>
+            <h1>Introduction</h1>
+         <p>Bihar Darshanamm is a comprehensive digital platform designed to showcase the unparalleled beauty, cultural richness, and historical significance of Bihar. This website acts as a virtual tour guide, offering users an immersive experience into the state's heritage, from its ancient landmarks to its vibrant festivals and traditions.</p><br>
+
+         <p>Through Bihar Darshanamm, visitors can explore detailed insights about the state's iconic destinations, such as Bodh Gaya, Nalanda, and Vaishali, while also discovering its lesser-known gems. The platform aims to celebrate and preserve Bihar's legacy, connecting people from around the world to the essence of this magnificent state.</p><br>
+
+         <p>With interactive features like maps, virtual tours, and event highlights, Bihar Darshanamm aspires to make Bihar tourism accessible, engaging, and inspiring for everyone. Whether you’re a history enthusiast, a spiritual seeker, or a curious traveler, Bihar Darshanamm is your trusted companion to uncover the stories and splendor of Bihar.</p>
+
+         <h1>Purpose and Vision</h1>
+         <h5>Purpose:</h5>
+         <p>The primary purpose of Bihar Darshanamm is to promote the rich cultural heritage, historical landmarks, and natural beauty of Bihar, making it a go-to platform for tourists, history enthusiasts, and culture lovers. This website seeks to bridge the gap between Bihar's treasures and the world by providing accurate, engaging, and visually appealing information about the state.
+        </p>
+
+        <p>It is also designed to:</p>
+        <ul>
+            <li>Educate users about Bihar's significant contributions to ancient and modern history.</li>
+            <li>Highlight the unique cultural and religious aspects that make Bihar a diverse and fascinating destination.</li>
+            <li>Inspire travelers to visit and explore Bihar, contributing to its tourism and local economy.
+            </li>
+        </ul>
+
+        <h1>Why Choose Bihar?
+        </h1>
+        <h3>Provide a brief overview of Bihar's significance:
+        </h3>
+        <ul>
+            <li>Ancient history (Nalanda, Vaishali, Bodh Gaya).</li>
+            <li>Religious importance (Buddhism, Jainism, Hinduism).
+            </li>
+            <li>Cultural diversity and festivals.</li>
+        </ul>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/must-visiting-dest.js') }}"></script>
+</body>
+</html>

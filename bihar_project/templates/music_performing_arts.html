@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Music & Performing Arts in Bihar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        h2 {
+            color: #333;
+        }
+        ul {
+            line-height: 1.8;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .card {
+            width: 18%;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            background-color: #fff;
+            text-align: center;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    {% include 'navbar.html' %}
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <header>
+        <h1>Music & Performing Arts in Bihar</h1>
+    </header>
+
+    <div class="container">
+        <section class="section">
+            <h2>Overview of Music & Performing Arts in Bihar</h2>
+            <p>Bihar has a rich tradition of music, dance, and performing arts. The state is known for its classical music, folk music, and traditional dance forms. Bihar’s music and arts culture reflects its deep connection to its history and its diverse regional influences. From the soulful Bhojpuri songs to classical performances, Bihar has contributed significantly to India's artistic heritage.</p>
+        </section>
+
+        <section class="section">
+            <h2>Famous Music Traditions of Bihar</h2>
+            <ul>
+                <li><strong>Folk Music:</strong> Bihar is known for its vibrant folk music traditions such as <em>Bhojpuri</em>, <em>Maithili</em>, and <em>Magahi</em> folk music. These genres represent the cultural identity of the people of Bihar and are sung during various festivals and celebrations.</li>
+                <li><strong>Qawwali:</strong> Popular in areas like Patna, Qawwali music finds its roots in Sufi traditions and remains popular in Bihar for its devotional and soulful renditions.</li>
+                <li><strong>Classical Music:</strong> Bihar has a strong classical music tradition, especially in the form of Hindustani classical music. Renowned maestros from Bihar have contributed to the growth of classical music across India.</li>
+                <li><strong>Chhath Geet:</strong> These are devotional songs sung during the <em>Chhath Puja</em>, a major festival in Bihar, celebrated in honor of the Sun God. The songs are deeply emotional and are an essential part of the festival.</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Notable Musicians & Artists from Bihar</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="path_to_image" alt="Ustad Bismillah Khan" />
+                    <h3><strong>Ustad Bismillah Khan</strong></h3>
+                    <p>One of the greatest shehnai players of India, Ustad Bismillah Khan hailed from Bihar. His contributions to Hindustani classical music are unparalleled, and his shehnai performances are cherished worldwide.</p>
+                </div>
+                <div class="card">
+                    <img src="path_to_image" alt="Ghulam Ali" />
+                    <h3><strong>Ghulam Ali</strong></h3>
+                    <p>A renowned ghazal singer, Ghulam Ali has made significant contributions to Indian music, with several of his ghazals becoming timeless classics.</p>
+                </div>
+                <div class="card">
+                    <img src="path_to_image" alt="Dr. L. Subramaniam" />
+                    <h3><strong>Dr. L. Subramaniam</strong></h3>
+                    <p>Though born in Bengaluru, Dr. L. Subramaniam has strong family ties to Bihar and is a world-famous violinist, known for his classical Indian and fusion music performances.</p>
+                </div>
+                <div class="card">
+                    <img src="path_to_image" alt="Sharda Sinha" />
+                    <h3><strong>Sharda Sinha</strong></h3>
+                    <p>A prominent folk singer from Bihar, she is known for her powerful voice and her contributions to Bhojpuri music and Chhath Geet.</p>
+                </div>
+                <div class="card">
+                    <img src="path_to_image" alt="Ravi Kishan" />
+                    <h3><strong>Ravi Kishan</strong></h3>
+                    <p>Known for his Bhojpuri music, Ravi Kishan is not just a film actor but also a singer with a remarkable influence on the Bhojpuri music industry.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Traditional Dance Forms of Bihar</h2>
+            <ul>
+                <li><strong>Jat-Jatin:</strong> A popular folk dance of Bihar, Jat-Jatin is a traditional performance depicting the stories of love, sacrifice, and sorrow.</li>
+                <li><strong>Bidesia:</strong> A traditional dance and theatre form that originated in Bihar, Bidesia blends folk music, dance, and acting to portray the lives of rural people. It is often performed during festivals and celebrations.</li>
+                <li><strong>Fagua:</strong> A dance performed during the Holi festival, Fagua is a vibrant and energetic performance with traditional folk songs and dances.</li>
+                <li><strong>Chhau Dance:</strong> Originating from the region around Bihar, Chhau is a martial dance form performed during festivals and has gained international recognition for its vibrant movements and colorful masks.</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Influential Music Festivals in Bihar</h2>
+            <ul>
+                <li><strong>Patna Classical Music Festival:</strong> An annual event that celebrates classical music in Bihar. The festival attracts some of the most renowned classical musicians from across India and the world.</li>
+                <li><strong>Chhath Festival Music Events:</strong> Music is an integral part of the <em>Chhath Puja</em> celebrations in Bihar. During the festival, devotional songs and <em>Chhath Geet</em> are sung at the riverbanks, accompanied by religious rituals.</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Challenges Faced by the Music & Performing Arts Industry in Bihar</h2>
+            <ul>
+                <li><strong>Lack of Infrastructure:</strong> Despite its rich cultural heritage, Bihar lacks the necessary infrastructure for large-scale music festivals and performances. More investment in venues and facilities is needed.</li>
+                <li><strong>Limited Exposure for Local Talent:</strong> Many local musicians and artists face difficulties in gaining exposure beyond the regional level due to limited media coverage and opportunities outside of Bihar.</li>
+                <li><strong>Commercialization:</strong> With the rise of modern music and film, traditional music forms like Bhojpuri folk and classical music are at risk of losing their prominence and appeal among younger generations.</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Government Support for Music & Performing Arts</h2>
+            <p>The Government of Bihar has made efforts to support the music and performing arts industries through initiatives such as funding cultural programs, organizing folk festivals, and promoting local artists. Cultural bodies like the Bihar State Cultural Council and various music academies help preserve and promote Bihar's traditional music and dance forms.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Music & Performing Arts in Bihar. All rights reserved.</p>
+    </footer>
+</body>
+</html>

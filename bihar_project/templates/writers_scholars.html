@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Writers & Scholars - Bihar Darshanamm</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    {% include 'navbar.html' %}
+    <div class="container mt-4">
+        <h1 class="mb-4">Writers & Scholars</h1>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            {% for writer in writers_scholars %}
+            <div class="col">
+                <div class="card h-100 shadow-sm" style="cursor: pointer; transition: transform 0.3s;">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ writer['Name'] }}</h5>
+                        <p><strong>Field:</strong> {{ writer['Field'] }}</p>
+                        <p><strong>Period of Influence:</strong> {{ writer['Period of Influence'] }}</p>
+                        <p><strong>Key Contributions:</strong> {{ writer['Key Contributions'] }}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Film & Cinema - Bihar Darshanamm</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        header {
+            background-color: #6c757d;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto 3rem auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #343a40;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #6c757d;
+            padding-bottom: 0.5rem;
+        }
+        p {
+            color: #495057;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #6c757d;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 6px rgba(0,0,0,0.15);
+        }
+        @media (max-width: 576px) {
+            .container {
+                margin: 1rem;
+                padding: 1rem;
+            }
+            footer {
+                position: static;
+            }
+        }
+    </style>
+</head>
+<body>
+    {% include 'navbar.html' %}
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <header>
+        <h1>Film & Cinema in Bihar</h1>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Overview</h2>
+            <p>Bihar has a rich history in film and cinema, contributing significantly to Indian cinema with many renowned actors, directors, and producers hailing from the state. The Bhojpuri film industry, in particular, has a strong presence and cultural impact.</p>
+        </section>
+
+        <section class="section">
+            <h2>Notable Personalities</h2>
+            <div class="card-container" style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+                <div class="card" style="width: 18%; border: 1px solid #ddd; border-radius: 8px; padding: 15px; background-color: #fff; text-align: center;">
+                    <img src="path_to_image" alt="Manoj Bajpayee" style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
+                    <h3><strong>Manoj Bajpayee</strong></h3>
+                    <p>Acclaimed actor known for his versatile roles in Bollywood and regional cinema.</p>
+                </div>
+                <div class="card" style="width: 18%; border: 1px solid #ddd; border-radius: 8px; padding: 15px; background-color: #fff; text-align: center;">
+                    <img src="path_to_image" alt="Neetu Chandra" style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
+                    <h3><strong>Neetu Chandra</strong></h3>
+                    <p>Actress and producer with contributions to Hindi and Bhojpuri films.</p>
+                </div>
+                <div class="card" style="width: 18%; border: 1px solid #ddd; border-radius: 8px; padding: 15px; background-color: #fff; text-align: center;">
+                    <img src="path_to_image" alt="Nitin Chandra" style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
+                    <h3><strong>Nitin Chandra</strong></h3>
+                    <p>Director and producer known for promoting Bhojpuri cinema.</p>
+                </div>
+                <div class="card" style="width: 18%; border: 1px solid #ddd; border-radius: 8px; padding: 15px; background-color: #fff; text-align: center;">
+                    <img src="path_to_image" alt="Ravi Kishan" style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
+                    <h3><strong>Ravi Kishan</strong></h3>
+                    <p>Popular actor and politician, a prominent figure in Bhojpuri cinema.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Film Festivals and Events</h2>
+            <p>Bihar hosts various film festivals and cultural events that celebrate cinema and promote regional films, fostering talent and encouraging the growth of the industry.</p>
+        </section>
+
+        <section>
+            <h2>Challenges and Opportunities</h2>
+            <ul>
+                <li><strong>Infrastructure:</strong> Need for better film production facilities and studios in Bihar.</li>
+                <li><strong>Funding:</strong> Limited financial support for independent filmmakers and regional cinema.</li>
+                <li><strong>Digital Platforms:</strong> Growing opportunities through OTT platforms for wider reach and audience engagement.</li>
+                <li><strong>Talent Development:</strong> Increasing focus on training and workshops to nurture new talent in the film industry.</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Film & Cinema in Bihar. All rights reserved.</p>
+    </footer>
+</body>
+</html>

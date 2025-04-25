@@ -1,0 +1,80 @@
+<div class="text-center my-3">
+  <h1>Bihar Darshanamm</h1>
+</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" 
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="{{ url_for('home') }}">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ url_for('popular_people') }}">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="destinationDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Destination
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="destinationDropdown">
+            <li><a class="dropdown-item" href="{{ url_for('historical_sites') }}">Historical Sites</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('religious_places') }}">Religious Places</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('natural_attractions') }}">Natural Attractions</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('cultural_heritage_spots') }}">Cultural & Heritage Spots</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('wildlife_eco_tourism') }}">Wildlife & Eco Tourism</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('adventure_scenic_locations') }}">Adventure & Scenic Locations</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="giDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            GI Tagged Products
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="giDropdown">
+            <li><a class="dropdown-item" href="{{ url_for('gi_agricultural_products') }}">Agricultural Products</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('gi_handicrafts_arts') }}">Handicrafts and Arts</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('gi_food_products') }}">Food Products</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="speciesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Species
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="speciesDropdown">
+            <li><a class="dropdown-item" href="{{ url_for('mammals') }}">Mammals</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('birds_species') }}">Birds</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('reptiles_amphibians') }}">Reptiles & Amphibians</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('aquatic_life') }}">Aquatic Life</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="greatPersonalityDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Great Personality
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="greatPersonalityDropdown">
+            <li><a class="dropdown-item" href="{{ url_for('political_historical_leaders') }}">Political & Historical Leaders</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('writers_scholars') }}">Writers & Scholars</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('artists_musicians') }}">Artists & Musicians</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('business_entrepreneurship') }}">Business & Entrepreneurship</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="entertainmentDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Entertainment
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="entertainmentDropdown">
+            <li><a class="dropdown-item" href="{{ url_for('film_cinema') }}">Film & Cinema</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('music_performing_arts') }}">Music & Performing Arts</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('traditional_dance_forms') }}">Traditional Dance Forms</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" role="search" action="{{ url_for('search') }}" method="get">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="q">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
