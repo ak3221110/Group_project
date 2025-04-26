@@ -83,9 +83,46 @@ RELIGIOUS_DATA_FILE = os.path.join(os.path.dirname(__file__), 'data', 'Religious
 
 def load_religious_places():
     religious_places = []
+    image_mapping = {
+        "Mahavir Mandir": "Mahavir Mandir.jpg",
+        "Mundeshwari Temple": "Mundeshwari Temple.jpg",
+        "Vishnupad Temple": "Vishnupad Temple.jpg",
+        "Ajgaibinath Temple": "Ajgaibinath Temple.avif",
+        "Hariharnath Temple": "Hariharnath Temple.avif",
+        "Baba Garibnath Dham": "Baba Garibnath Dham.jpg",
+        "Thawe Mandir": "Thawe Mandir.jpg",
+        "Sundarnath Temple": "Sundarnath Temple.jpg",
+        "Ahalya Sthan": "Ahalya Sthan.jpg",
+        "Ugratara Temple": "Ugratara Temple.jpeg",
+        "Shiv Shakti Temple": "Shiv Shakti Temple.jpg",
+        "Budhanath Temple": "Budhanath Temple.jpg",
+        "Ramchaura Mandir": "Ramchaura Mandir.jpg",
+        "Janki Temple": "Janki Temple.jpg",
+        "Mahabodhi Temple": "Mahabodhi Temple.webp",
+        "Nalanda University Ruins": "Nalanda University Ruins.jpg",
+        "Griddhakuta Hill": "Griddhakuta Hill.jpg",
+        "Sujata Kuti": "Sujata Kuti.webp",
+        "Vaishali Stupa": "Vaishali Stupa.jpg",
+        "Jal Mandir": "Jal Mandir.jpg",
+        "Samosharan Mandir": "Samosharan Mandir.jpg",
+        "Vaishali Jain Temple": "Vaishali Jain Temple.jpg",
+        "Champapuri": "Champapuri.jpg",
+        "Lachhuar Jain Temple": "Lachhuar Jain Temple.jpg",
+        "Maner Sharif": "Maner Sharif.jpg",
+        "Bari Dargah": "Bari Dargah.jpeg",
+        "Chhoti Dargah": "Chhoti Dargah.jpg",
+        "Phulwari Sharif": "Phulwari Sharif.jpg",
+        "Padri Ki Haveli": "Padri Ki Haveli.jpg",
+        "St. Joseph's Church": "St. Joseph's Church.jpg",
+        "Queen of Apostles Church": "Queen of Apostles Church.jpg",
+        "Takht Sri Patna Sahib": "Takht Sri Patna Sahib.avif",
+        "Gurudwara Gai Ghat": "Gurudwara Gai Ghat.jpg",
+        "Gurudwara Bal Leela": "Gurudwara Bal Leela.jpg"
+    }
     with open(RELIGIOUS_DATA_FILE, newline='', encoding='utf-8') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
+            row['Image'] = image_mapping.get(row['Name'], None)
             religious_places.append(row)
     return religious_places
 

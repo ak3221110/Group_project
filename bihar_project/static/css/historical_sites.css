@@ -1,0 +1,88 @@
+/* historical_sites.css */
+
+/* Responsive enhancements (Bootstrap already handles most) */
+@media (max-width: 768px) {
+  .card-body p {
+    font-size: 0.9rem;
+  }
+  .card-title {
+    font-size: 1.25rem;
+  }
+}
+
+/* Background color for the whole page */
+body {
+  background-color: #f4efe6; /* subtle parchment/off-white color for historical theme */
+  color: #3e3e3e;
+  font-family: 'Georgia', serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Interactive card styles */
+.card {
+  background-color: #f9f4ef; /* light warm beige for historical feel */
+  color: #3e3e3e; /* dark gray text */
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 1px solid #d6cfc4;
+}
+
+.card:hover {
+  background-color: #e6d9c3; /* slightly darker beige on hover */
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+/* Animation on card load */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card {
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+/* Image placeholder animation */
+.image-placeholder {
+  transition: background-color 0.5s ease;
+}
+
+.card:hover .image-placeholder {
+  background-color: #6c757d; /* Slightly darker on hover */
+  filter: brightness(0.85);
+  transition: background-color 0.5s ease, filter 0.5s ease;
+}
+
+/* Add a subtle pulse animation on hover for the card title */
+.card:hover .card-title {
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    color: #212529;
+  }
+  50% {
+    color: #007bff;
+  }
+}
+
+/* Responsive text alignment for smaller devices */
+@media (max-width: 576px) {
+  .card-body {
+    text-align: center;
+  }
+}
