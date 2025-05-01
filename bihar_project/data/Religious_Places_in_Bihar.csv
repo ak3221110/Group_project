@@ -1,35 +1,35 @@
-Name,Location,Religion,Deity/Saint,Significance
-Mahavir Mandir,Patna,Hindu,Lord Hanuman,One of the holiest Hanuman temples in North India
-Mundeshwari Temple,Kaimur,Hindu,Durga & Shiva,Oldest functional temple (108 CE)
-Vishnupad Temple,Gaya,Hindu,Lord Vishnu,"Footprint of Lord Vishnu, site for pind daan"
-Ajgaibinath Temple,Sultanganj,Hindu,Lord Shiva,Start of Shravani Mela
-Hariharnath Temple,Sonepur,Hindu,Vishnu & Shiva,Linked to Asia’s largest cattle fair
-Baba Garibnath Dham,Muzaffarpur,Hindu,Lord Shiva,Shivling emerged from a tree
-Thawe Mandir,Gopalganj,Hindu,Maa Thawewali,"Shaktipeeth, Navratri fair"
-Sundarnath Temple,Araria,Hindu,Lord Shiva,Large Mahashivratri fair
-Ahalya Sthan,Darbhanga,Hindu,Lord Rama,Rama freed Ahalya here
-Ugratara Temple,Saharsa,Hindu,Goddess Tara,One of 51 Shakti Peethas
-Shiv Shakti Temple,Munger,Hindu,Shiva & Shakti,Divine masculine and feminine worship
-Budhanath Temple,Bhagalpur,Hindu,Lord Shiva,"On the banks of Ganga, pilgrimage site"
-Ramchaura Mandir,Hajipur,Hindu,Lord Rama,Site associated with Rama's exile
-Janki Temple,Sitamarhi,Hindu,Goddess Sita,Birthplace of Sita
-Mahabodhi Temple,Bodh Gaya,Buddhist,Gautam Buddha,Enlightenment site of Buddha
-Nalanda University Ruins,Nalanda,Buddhist,N/A,Ancient center of Buddhist learning
-Griddhakuta Hill,Rajgir,Buddhist,Gautam Buddha,Site of Buddha’s sermons
-Sujata Kuti,Bodh Gaya,Buddhist,N/A,Sujata fed Buddha before enlightenment
-Vaishali Stupa,Vaishali,Buddhist,Gautam Buddha,Second Buddhist council site
-Jal Mandir,Pawapuri,Jain,Lord Mahavira,Mahavira’s Nirvana site
-Samosharan Mandir,Pawapuri,Jain,Lord Mahavira,Where Mahavira gave sermons
-Vaishali Jain Temple,Vaishali,Jain,Lord Mahavira,Birthplace of Mahavira
-Champapuri,Bhagalpur,Jain,Lord Vasupujya,Associated with 12th Tirthankara
-Lachhuar Jain Temple,Jamui,Jain,Multiple,Mahavir Jayanti celebrations
-Maner Sharif,Patna,Muslim,Makhdoom Yahya Maneri,Prominent Sufi dargah
-Bari Dargah,Bihar Sharif,Muslim,Makhdoom Sharfuddin Yahya Maneri,Sufi spiritual center
-Chhoti Dargah,Patna,Muslim,Makhdum Shah Daulat,Indo-Islamic architecture
-Phulwari Sharif,Patna,Muslim,Various Saints,Islamic teaching hub
-Padri Ki Haveli,Patna,Christian,Jesus Christ,Oldest church in Bihar
-St. Joseph's Church,Patna,Christian,Jesus Christ,Roman Catholic Archdiocese
-Queen of Apostles Church,Gaya,Christian,Jesus Christ,Serves Christian pilgrims
-Takht Sri Patna Sahib,Patna,Sikh,Guru Gobind Singh Ji,One of the 5 Takhts of Sikhism
-Gurudwara Gai Ghat,Patna,Sikh,Guru Nanak & Tegh Bahadur,Visited by Sikh Gurus
-Gurudwara Bal Leela,Patna,Sikh,Guru Gobind Singh Ji,Childhood of Guru Gobind Singh
+Name|Location|Religion|Deity/Saint|Significance
+Mahavir Mandir|Patna|Hindu|Lord Hanuman|One of the holiest Hanuman temples in North India
+Mundeshwari Temple|Kaimur|Hindu|Durga & Shiva|Oldest functional temple (108 CE)
+Vishnupad Temple|Gaya|Hindu|Lord Vishnu|Footprint of Lord Vishnu, site for pind daan
+Ajgaibinath Temple|Sultanganj|Hindu|Lord Shiva|Start of Shravani Mela
+Hariharnath Temple|Sonepur|Hindu|Vishnu & Shiva|Linked to Asia’s largest cattle fair
+Baba Garibnath Dham|Muzaffarpur|Hindu|Lord Shiva|Shivling emerged from a tree
+Thawe Mandir|Gopalganj|Hindu|Maa Thawewali|Shaktipeeth, Navratri fair
+Sundarnath Temple|Araria|Hindu|Lord Shiva|Large Mahashivratri fair
+Ahalya Sthan|Darbhanga|Hindu|Lord Rama|Rama freed Ahalya here
+Ugratara Temple|Saharsa|Hindu|Goddess Tara|One of 51 Shakti Peethas
+Shiv Shakti Temple|Munger|Hindu|Shiva & Shakti|Divine masculine and feminine worship
+Budhanath Temple|Bhagalpur|Hindu|Lord Shiva|On the banks of Ganga, pilgrimage site
+Ramchaura Mandir|Hajipur|Hindu|Lord Rama|Site associated with Rama's exile
+Janki Temple|Sitamarhi|Hindu|Goddess Sita|Birthplace of Sita
+Mahabodhi Temple|Bodh Gaya|Buddhist|Gautam Buddha|Enlightenment site of Buddha
+Nalanda University Ruins|Nalanda|Buddhist|N/A|Ancient center of Buddhist learning
+Griddhakuta Hill|Rajgir|Buddhist|Gautam Buddha|Site of Buddha’s sermons
+Sujata Kuti|Bodh Gaya|Buddhist|N/A|Sujata fed Buddha before enlightenment
+Vaishali Stupa|Vaishali|Buddhist|Gautam Buddha|Second Buddhist council site
+Jal Mandir|Pawapuri|Jain|Lord Mahavira|Mahavira’s Nirvana site
+Samosharan Mandir|Pawapuri|Jain|Lord Mahavira|Where Mahavira gave sermons
+Vaishali Jain Temple|Vaishali|Jain|Lord Mahavira|Birthplace of Mahavira
+Champapuri|Bhagalpur|Jain|Lord Vasupujya|Associated with 12th Tirthankara
+Lachhuar Jain Temple|Jamui|Jain|Multiple|Mahavir Jayanti celebrations
+Maner Sharif|Patna|Muslim|Makhdoom Yahya Maneri|Prominent Sufi dargah
+Bari Dargah|Bihar Sharif|Muslim|Makhdoom Sharfuddin Yahya Maneri|Sufi spiritual center
+Chhoti Dargah|Patna|Muslim|Makhdum Shah Daulat|Indo-Islamic architecture
+Phulwari Sharif|Patna|Muslim|Various Saints|Islamic teaching hub
+Padri Ki Haveli|Patna|Christian|Jesus Christ|Oldest church in Bihar
+St. Joseph's Church|Patna|Christian|Jesus Christ|Roman Catholic Archdiocese
+Queen of Apostles Church|Gaya|Christian|Jesus Christ|Serves Christian pilgrims
+Takht Sri Patna Sahib|Patna|Sikh|Guru Gobind Singh Ji|One of the 5 Takhts of Sikhism
+Gurudwara Gai Ghat|Patna|Sikh|Guru Nanak & Tegh Bahadur|Visited by Sikh Gurus
+Gurudwara Bal Leela|Patna|Sikh|Guru Gobind Singh Ji|Childhood of Guru Gobind Singh
